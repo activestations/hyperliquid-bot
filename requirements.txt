@@ -1,0 +1,5 @@
+hyperliquid-python-sdk>=0.18.0
+python-dotenv>=1.0.1
+PyYAML>=6.0.2
+eth-account>=0.13.0
+websockets>=12.0

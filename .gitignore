@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.venv/
+venv/
+
+# Secrets & configs (actual, not templates)
+.env
+config.live-testnet.yaml
+config.vhl.yaml
+config.yaml
+
+# Runtime state
+*.jsonl
+daemon_state_*.json
+paper_state_*.json
+state.json
+
+# Logs
+*.out
+network_logs/
+
+# PID files
+pids/
+
+# Kill-switch sentinels
+.stop.*
+
+# OS
+.DS_Store
+Thumbs.db

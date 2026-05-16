@@ -1,0 +1,21 @@
+environment: testnet       # testnet | mainnet
+dry_run: true              # true = never send exchange actions
+
+wallet:
+  address: ""              # 0x... public wallet address
+
+risk:
+  allowed_coins: ["BTC", "ETH", "SOL"]
+  max_order_notional_usd: 20
+  max_daily_orders: 20
+  allow_reduce_only_only: false
+  require_testnet_for_live: true
+  smoke_test_only_testnet: true
+  max_position_size: 0.01
+  max_drawdown_usd: 5
+  max_spread_bps: 25
+  emergency_cancel_on_error: true
+
+trading:
+  default_tif: Gtc          # Alo | Ioc | Gtc
+  default_slippage_bps: 20
